@@ -1,0 +1,1 @@
+{"version":3,"file":"appLoader.js","sourceRoot":"","sources":["../../migration-to-typescript/src/components/controller/appLoader.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;AAAA,oDAA8B;AAE9B;IAAwB,6BAAM;IAC5B;eACE,kBAAM,yBAAyB,EAAE;YAC/B,MAAM,EAAE,kCAAkC,EAAE,0CAA0C;SACvF,CAAC;IACJ,CAAC;IACH,gBAAC;AAAD,CAAC,AAND,CAAwB,gBAAM,GAM7B;AAED,kBAAe,SAAS,CAAC"}

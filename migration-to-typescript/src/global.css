@@ -1,0 +1,70 @@
+body {
+    color: #fff;
+    background: #17181c;
+    font-family: sans-serif;
+}
+
+header {
+    padding: 10px 30px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer a {
+  text-decoration: none;
+  color: #333;
+  width: 85px;
+}
+
+.year {
+  color: #333;
+}
+
+.rss {
+  background-image: url(https://rs.school/images/rs_school_js.svg);
+  width: 70px;
+  height: 25px;
+  background-repeat: no-repeat;
+  filter: invert(18%) sepia(1%) saturate(0%) hue-rotate(270deg) brightness(101%) contrast(96%);
+}
+
+footer .copyright {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    width: 100%;
+}
+footer .copyright a {
+    color: #444;
+}
+footer .copyright a:hover {
+    color: #555;
+}
+footer .copyright:before {
+    content: '©';
+}
+
+@media (max-width: 344px) {
+  header h1 {
+    text-align: center;
+    font-size: 33px;
+    margin: 5px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    margin: 5px 0;
+  }
+}
